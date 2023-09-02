@@ -15,7 +15,6 @@ function renderGallery() {
     const newImg = document.createElement("img");
     newImg.classList.add("gallery__image");
     newImg.src = galleryItems[i].preview;
-    newImg.dataset.source = galleryItems[i].original;
     newImg.alt = galleryItems[i].description;
 
     newLink.append(newImg);
